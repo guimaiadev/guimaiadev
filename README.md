@@ -26,28 +26,3 @@
   </a>
 </p>
 
-# 🐍 Cobra Animada
-
-<p align="center">
-  <svg width="200" height="200" viewBox="0 0 100 100">
-    <defs>
-      <path id="snakePath" d="M10,50 Q30,30 50,50 T90,50" fill="transparent"/>
-    </defs>
-    <g>
-      <circle cx="10" cy="50" r="5" fill="#00ff00">
-        <animateMotion dur="2s" repeatCount="indefinite">
-          <mpath href="#snakePath"/>
-        </animateMotion>
-      </circle>
-    </g>
-    <style>
-      @keyframes move {
-        0% { transform: translateX(0); }
-        100% { transform: translateX(100px); }
-      }
-      circle {
-        animation: move 3s linear infinite;
-      }
-    </style>
-  </svg>
-</p>
